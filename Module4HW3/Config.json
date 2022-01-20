@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=RussoLaptop;Database=CompanyDB;Integrated Security=True"
+  }
+}

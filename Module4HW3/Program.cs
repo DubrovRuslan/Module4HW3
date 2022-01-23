@@ -18,7 +18,6 @@ namespace Module4HW3
             var options = optionBuilder.UseSqlServer(connectionString).Options;
             using (var db = new ApplicationContext(options))
             {
-                db.SaveChanges();
             }
 
             Console.Read();

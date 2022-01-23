@@ -1,5 +1,6 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=RussoLaptop;Database=CompanyDB;Integrated Security=True"
+    //"DefaultConnection": "Server=RussoLaptop;Database=CompanyDB;Integrated Security=True"
+    "DefaultConnection": "DATA SOURCE=(local);Integrated Security=True;DATABASE=CompanyDB"
   }
 }

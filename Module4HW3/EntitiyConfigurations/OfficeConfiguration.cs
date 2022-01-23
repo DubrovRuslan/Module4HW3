@@ -9,7 +9,7 @@ namespace Module4HW3.EntitiyConfigurations
         public void Configure(EntityTypeBuilder<Office> builder)
         {
             builder.ToTable("Office").HasKey(o => o.OfficeId);
-            builder.Property(o => o.OfficeId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
+            builder.Property(o => o.OfficeId).IsRequired().ValueGeneratedOnAdd();
             builder.Property(o => o.Title).HasColumnType("nvarchar").IsRequired().HasMaxLength(100);
             builder.Property(o => o.Location).HasColumnType("nvarchar").IsRequired().HasMaxLength(100);
         }

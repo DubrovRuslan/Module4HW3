@@ -9,7 +9,6 @@ namespace Module4HW3
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {
-            Database.EnsureCreated();
         }
 
         public DbSet<Employee> Employees { get; set; }

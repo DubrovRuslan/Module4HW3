@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=freeman-laptop;Database=CompanyDB;trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true"
+  }
+}
